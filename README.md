@@ -14,12 +14,12 @@ O nome sorteado será exibido na tela.
 
  <h2>Explicando código</h2>
 
-1. Criei um array para armazenar os amigos:
+<h3>1. Criei um array para armazenar os amigos:</h3>
 
 let amigos = [];
 let amigo = document.getElementById('amigo');
 
-2. Função para adicionar um amigo:
+<h3>2. Função para adicionar um amigo:</h3>
 
 Obtém o valor digitado no input.
 
@@ -38,13 +38,13 @@ function adicionarAmigo() {
     }
 }
 
-3. Função para limpar o campo de entrada:
+<h3>3. Função para limpar o campo de entrada:</h3>
 
 function limparCampo() {
     amigo.value = '';
 }
 
-4. Função para atualizar a lista de amigos na tela:
+<h3>4. Função para atualizar a lista de amigos na tela:</h3>
 
 Percorre o array e adiciona os nomes à lista.
 
@@ -58,7 +58,7 @@ function atualizarLista() {
     }
 }
 
-5. Função para sortear um amigo:
+<h3>5. Função para sortear um amigo:</h3>
 
 Verifica se há pelo menos um nome na lista.
 
